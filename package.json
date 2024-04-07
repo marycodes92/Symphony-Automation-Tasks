@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "npx playwright test",
     "test:api": "npx playwright test ./tests/api/getEntries.spec.ts",
     "test:e2e:ci": "npx playwright test tests/e2e/saucedemo.spec.ts --project=chromium",
-    "test:e2e": "npx playwright test tests/e2e/saucedemo.spec.ts --debug",
-    "test": "npx playwright test"
+    "test:e2e": "npx playwright test tests/e2e/saucedemo.spec.ts --debug"
   },
   "keywords": [],
   "author": "",
